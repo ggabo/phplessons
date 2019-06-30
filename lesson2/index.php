@@ -15,8 +15,12 @@ $object->info->addres = "Whatever street";
 
 echo json_encode($object);
 
-header('Content-Type: text/html ');
+header('Content-Type: text/html');
 
-echo "<p>HUMA KAVULA</p>";
+echo "<p>A paragraph</p>";
+
+header('Content-Type: application/x-7z-compressed');
+
+echo "is this a fucking zip file? No";
 
 ?>
